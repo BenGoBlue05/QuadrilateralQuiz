@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/question"
+            android:text="@string/question_five" />
+
+        <View style="@style/divider"></View>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/q5_radio_group">
+            <RadioButton
+                android:id="@+id/q5_true"
+                style="@style/radio_button"
+                android:text="@string/true_radio_button"/>
+            <RadioButton
+                android:id="@+id/q5_false"
+                style="@style/radio_button"
+                android:text="@string/false_radio_button"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_centerInParent="true"
+        android:background="@color/primary_light"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="16dp"
+        android:textStyle="bold"/>
+    <RelativeLayout style="@style/bottom_layout">
+        <Button
+            style="@style/last_button"
+            android:id="@+id/q5_last_button"/>
+
+        <TextView
+            style="@style/question_number"
+            android:text="@string/five_of_five" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

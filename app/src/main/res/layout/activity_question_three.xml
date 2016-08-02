@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/question"
+            android:text="@string/question_three" />
+
+        <View style="@style/divider"></View>
+
+        <EditText
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/question_three_hint"
+            android:layout_gravity="center"
+            android:background="@color/primary_light"
+            android:id="@+id/q3_user_input"/>
+
+    </LinearLayout>
+
+    <RelativeLayout style="@style/bottom_layout">
+
+        <Button
+            style="@style/last_button"
+            android:id="@+id/q3_last_button"/>
+
+        <TextView
+            style="@style/question_number"
+            android:text="@string/three_of_five" />
+
+        <Button
+            style="@style/next_button"
+            android:id="@+id/q3_next_button"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>

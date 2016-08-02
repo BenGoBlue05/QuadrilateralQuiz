@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/question"
+            android:text="@string/question_one" />
+
+        <View style="@style/divider"></View>
+
+        <CheckBox
+            android:id="@+id/parallelogram_check_box"
+            style="@style/checkbox"
+            android:text="@string/parallelogram_choice" />
+
+        <CheckBox
+            android:id="@+id/polygon_check_box"
+            style="@style/checkbox"
+            android:text="@string/polygon_choice" />
+
+        <CheckBox
+            android:id="@+id/rectangle_check_box"
+            style="@style/checkbox"
+            android:text="@string/rectangle_choice" />
+
+        <CheckBox
+            android:id="@+id/rhombus_check_box"
+            style="@style/checkbox"
+            android:text="@string/rhombus_choice" />
+
+    </LinearLayout>
+
+    <RelativeLayout style="@style/bottom_layout">
+
+        <TextView
+            style="@style/question_number"
+            android:text="@string/one_of_five" />
+
+        <Button
+            style="@style/next_button"
+            android:id="@+id/q1_next_button"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>

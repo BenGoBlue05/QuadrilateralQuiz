@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quadrilateralquiz.MainActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/finish"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/icons"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/final_score"
+        android:textSize="24sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/primary_text"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:id="@+id/your_score_is"/>
+    <TextView
+        android:id="@+id/final_score_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="28sp"
+        android:padding="16dp"
+        android:textColor="@color/icons"
+        android:textStyle="bold"
+        android:layout_below="@id/your_score_is"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try Again"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:id="@+id/try_again_button"/>
+</RelativeLayout>

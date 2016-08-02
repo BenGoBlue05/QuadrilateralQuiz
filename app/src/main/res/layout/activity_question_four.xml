@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/question"
+            android:text="@string/question_four" />
+
+        <View style="@style/divider"></View>
+
+        <CheckBox
+            android:id="@+id/complementary_check_box"
+            style="@style/checkbox"
+            android:text="@string/complementary_choice" />
+
+        <CheckBox
+            android:id="@+id/congruent_check_box"
+            style="@style/checkbox"
+            android:text="@string/congruent_choice" />
+
+        <CheckBox
+            android:id="@+id/supplementary_check_box"
+            style="@style/checkbox"
+            android:text="@string/supplementary_choice" />
+
+        <CheckBox
+            android:id="@+id/none_check_box"
+            style="@style/checkbox"
+            android:text="@string/none_choice" />
+
+    </LinearLayout>
+
+    <RelativeLayout style="@style/bottom_layout">
+
+        <Button
+            style="@style/last_button"
+            android:id="@+id/q4_last_button"/>
+
+        <TextView
+            style="@style/question_number"
+            android:text="@string/four_of_five" />
+
+        <Button
+            style="@style/next_button"
+            android:id="@+id/q4_next_button"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>

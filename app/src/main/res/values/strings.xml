@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Quadrilateral Quiz</string>
+
+    <!--Bottom Buttons-->
+    <string name="last_button_text">&lt;    Last</string>
+    <string name="next_button_text">Next &gt;</string>
+
+    <!--Welcome Screen-->
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_screen_text">
+        The following five questions will test your knowledge of quadrilaterals.\n
+        \nGood luck!
+    </string>
+
+    <!--question 1 strings-->
+    <string name="question_one">All squares are:</string>
+
+    <string name="parallelogram_choice">Parallelograms</string>
+    <string name="polygon_choice">Polygons</string>
+    <string name="rectangle_choice">Rectangles</string>
+    <string name="rhombus_choice">Rhombuses</string>
+
+    <!--question 2 strings-->
+    <string name="question_two">All rectangles are squares</string>
+
+    <!--question 3 strings-->
+    <string name="question_three">What is the sum of the interior angles of a polygon (in degrees)?</string>
+    <string name="question_three_hint">Your Answer</string>
+    <!--question 4 strings-->
+    <string name="question_four">Adjacent angles of parallelograms are necessarily:</string>
+
+    <string name="complementary_choice">Complementary</string>
+    <string name="congruent_choice">Congruent</string>
+    <string name="supplementary_choice">Supplementary</string>
+    <string name="none_choice">None of the above</string>
+
+
+    <!--question 5 strings-->
+    <string name="question_five">All quadrilaterals are polygons</string>
+    <string name="submit">Finish and Submit</string>
+    <!--boolean strings-->
+    <string name="true_radio_button">True</string>
+    <string name="false_radio_button">False</string>
+
+    <string name="one_of_five">1 of 5</string>
+    <string name="two_of_five">2 of 5</string>
+    <string name="three_of_five">3 of 5</string>
+    <string name="four_of_five">4 of 5</string>
+    <string name="five_of_five">5 of 5</string>
+
+    <!--Finish Screen-->
+    <string name="finish">You Made It!</string>
+    <string name="final_score">Your score is:</string>
+</resources>
